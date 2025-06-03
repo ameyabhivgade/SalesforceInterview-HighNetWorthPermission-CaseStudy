@@ -1,0 +1,108 @@
+/* highNetWorthClientViewer.css */
+.high-net-worth-card {
+    border-left: 4px solid #1b96ff;
+}
+
+.standard-client-card {
+    border-left: 4px solid #706e6b;
+}
+
+.permission-info {
+    background-color: #f3f3f3;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.amount-display {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #080707;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.edit-section {
+    border-top: 1px solid #dddbda;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.form-section {
+    padding: 1rem 0;
+}
+
+.form-section h3 {
+    color: #3e3e3c;
+    border-bottom: 1px solid #dddbda;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Custom styling for high net worth status */
+.slds-theme_success {
+    background-color: #4bca81;
+    color: white;
+}
+
+.slds-theme_default {
+    background-color: #706e6b;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .slds-col {
+        width: 100% !important;
+    }
+    
+    .slds-grid {
+        display: block;
+    }
+}
+
+/* Loading state */
+.loading-container {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Error state styling */
+.error-message {
+    color: #c23934;
+    font-weight: 600;
+}
+
+/* Form validation styling */
+.slds-has-error .slds-form-element__control {
+    border-color: #c23934;
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* Info box styling */
+.info-box {
+    background: linear-gradient(45deg, #e8f4fd, #f3f9ff);
+    border: 1px solid #1b96ff;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info-box .slds-text-heading_small {
+    color: #014486;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

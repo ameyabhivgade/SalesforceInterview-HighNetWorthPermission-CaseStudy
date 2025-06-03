@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>HighNetWorthClientController</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>High_Net_Worth_Client_Service_Representative</members>
+		<name>CustomPermission</name>
+	</types>
+	<types>
+		<members>High_Net_Worth_Client_Account_page</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>highNetWorthClientPage</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>Sales_Plus_User</members>
+		<name>PermissionSet</name>
+	</types>
+	<version>63.0</version>
+</Package>
