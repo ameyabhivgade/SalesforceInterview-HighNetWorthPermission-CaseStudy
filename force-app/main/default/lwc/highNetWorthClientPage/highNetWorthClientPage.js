@@ -1,5 +1,5 @@
 import { LightningElement, api, track, wire } from 'lwc';
-import { getRecord, getFieldValue, updateRecord } from 'lightning/uiRecordApi';
+import { getRecord, getFieldValue, updateRecord, get} from 'lightning/uiRecordApi';
 import checkHighNetWorthStatus from '@salesforce/apex/HighNetWorthClientController.checkHighNetWorthStatus';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import hasCustomPermission from '@salesforce/customPermission/High_Net_Worth_Client_Service_Representative';
@@ -64,7 +64,7 @@ export default class HighNetWorthClientPage extends LightningElement {
         }
     }
 
-    get hasCustomPermission() {
+      get hasCustomPermission() {
         return hasCustomPermission;
     }
 
@@ -102,7 +102,7 @@ export default class HighNetWorthClientPage extends LightningElement {
     get editIconName() {
         return this.isEditMode ? 'utility:close' : 'utility:edit';
     }
-
+    
 
     checkHighNetWorthStatus() {
         // This method is called after the account record is loaded

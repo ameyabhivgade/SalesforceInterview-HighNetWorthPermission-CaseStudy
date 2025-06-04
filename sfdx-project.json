@@ -1,12 +1,19 @@
 {
   "packageDirectories": [
     {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
       "path": "force-app",
-      "default": true
+      "package": "high-net-worth",
+      "versionDescription": "HighNetWorthClientPermission"
     }
   ],
   "name": "HighNetWorthCaseStudy",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "63.0"
+  "sourceApiVersion": "63.0",
+  "packageAliases": {
+    "high-net-worth": "0HoWd00000000BJKAY",
+    "high-net-worth@0.1.0-1": "04tWd0000003KAHIA2"
+  }
 }
